@@ -30,8 +30,11 @@ e.g.: https://amzn.to/2VDNDyi
 
 Oil Temp Sensor
 There are differen sizes available from VDO. Choose the correct one for you car. Especially mind the threads and lenght of the sensor. My car could only be fitted with the "short" version.
+
 VDO TEMPERATURFÜHLER 150° OEL M14 x 1,5 kurz
+
 Long version with M14x1,5: https://amzn.to/32G6v0V
+
 The sensor is connected only with one wire to the ESP. Worry was that the ground is not good enough... But first tests show that the received/calculated values are good enough.
 
 DC/DC Converter
@@ -50,7 +53,7 @@ Cables for the display and the switch.
 e.g. https://amzn.to/2TxkW30
 
 ## Wiring Diagram
-Will be provided shortly.
+<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/oilsensor.png" height="300px" />.
 
 ## Code
 Will be uploaded shortly.
