@@ -88,16 +88,17 @@ http://javl.github.io/image2cpp/
 ## More "Work in Progress" photos
 Yes, it's not a nice looking piece of work. But it does what it should do... ;)
 
-<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200301_142209.jpg" height="500px" />
-<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200301_140325.jpg" height="500px" />
-<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200301_142253.jpg" height="500px" />
-<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200301_142302.jpg" height="500" />
-<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200301_133825.jpg" height="500px" />
-<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200301_133836.jpg" height="500px" />
-<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200301_133128.jpg" height="500px" />
-<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200229_160923.jpg" height="500px" />
-<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200229_113049.jpg" height="500px" />
-<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200223_084447.jpg" height="500px" />
+<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200301_142209.jpg" height="300px" />
+<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200301_140325.jpg" height="300px" />
+<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200301_142253.jpg" height="300px" />
+<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200301_142302.jpg" height="300px" />
+<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200301_133825.jpg" height="300px" />
+<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200301_133836.jpg" height="300px" />
+<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200301_133128.jpg" height="300px" />
+<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200229_160923.jpg" height="300px" />
+<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200229_113049.jpg" height="300px" />
+<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200223_084447.jpg" height="300px" />
+<img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200222_075008.jpg" height="300px" />
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMzI2OTA4OTMyLC0xNDAwNjU3MDY2XX0=
