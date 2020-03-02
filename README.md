@@ -9,12 +9,12 @@ Note: Amazon Links are affiliate links. Thanks for the support.
 Receiving Oil Temp from an additional VDO Temp Sensor on the ESP32
 ESP32 shows Oil Temp on the mini display in the dashboard
 Cycling through different display options via physical switch in the glovebox.
-  Default: Show oil temp under 80°C and over 110°C. 
-  Option1: Show oil temp always.
+  Default: Show oil temp under 80°C and over 120°C, disable display between these values.
+  Option1: Show always the current oil temp.
   Option2: Show Cayman logo.
   Option3: Disable screen.
-ESP32 provides Oil Temp via Bluetooth Serial to a mobile phone
-OTA update for the ESP32, software can be adapted without physical access to the ESP
+ESP32 provides Oil Temp via Bluetooth Serial to a mobile phone.
+OTA update for the ESP32, software can be adapted without physical access to the ESP. Important because it now sits behind the radio...
 
 ## Components Used
 
@@ -51,6 +51,8 @@ e.g. https://amzn.to/2TxkW30
 
 
 ## Future Improvements
+Change from Bluetooth Serial to BLE.
+
 Small Android app that shows current oil temp and records the history. Would be interesting to see the oiltemp/time line for cold start or e.g. mountain pass driving. :)
 
 Additional display of oiltemp in graphical fashion, some sort of gauge.
@@ -61,7 +63,7 @@ Additional display of oiltemp in graphical fashion, some sort of gauge.
 I was mostly working by this project, mainly for the actual temp calculation:
 https://github.com/speeddragon/Arduino-CarSensorDashboard
 
-Quite Advanced and similar project
+Quite similar but advanced project
 https://www.instructables.com/id/Wifi-Enabled-OLED-ESP32-Car-Gauges/
 
 Gauge icon:
@@ -69,6 +71,9 @@ https://thenounproject.com/icon/490005/
 
 Nice Car logos/images:
 https://thenounproject.com/search/?q=cayman&i=248360
+
+To create the images in "arduino compativble format":
+http://javl.github.io/image2cpp/
 
 ## More "Work in Progress" photos
 
