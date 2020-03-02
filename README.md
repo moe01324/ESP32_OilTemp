@@ -4,7 +4,7 @@ An ESP32 OilTemp Display for Cars
 
 Note: Amazon Links are affiliate links. Thanks for the support.
 
-Functionality
+## Functionality
 
 Receiving Oil Temp from an additional VDO Temp Sensor on the ESP32
 ESP32 shows Oil Temp on the mini display in the dashboard
@@ -46,6 +46,10 @@ e.g. https://amzn.to/2TxkW30
 ## Wiring Diagram
 
 
+
+## Code
+
+
 ## Future Improvements
 Small Android app that shows current oil temp and records the history. Would be interesting to see the oiltemp/time line for cold start or e.g. mountain pass driving. :)
 
@@ -54,8 +58,17 @@ Additional display of oiltemp in graphical fashion, some sort of gauge.
 
 ## Interesting and helpful links
 
+I was mostly working by this project, mainly for the actual temp calculation:
+https://github.com/speeddragon/Arduino-CarSensorDashboard
+
+Quite Advanced and similar project
 https://www.instructables.com/id/Wifi-Enabled-OLED-ESP32-Car-Gauges/
 
+Gauge icon:
+https://thenounproject.com/icon/490005/
+
+Nice Car logos/images:
+https://thenounproject.com/search/?q=cayman&i=248360
 
 ## More "Work in Progress" photos
 
