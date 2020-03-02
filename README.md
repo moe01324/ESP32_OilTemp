@@ -30,7 +30,7 @@ Oil Temp Sensor
 There are differen sizes available from VDO. Choose the correct one for you car. Especially mind the threads and lenght of the sensor. My car could only be fitted with the "short" version.
 VDO TEMPERATURFÜHLER 150° OEL M14 x 1,5 kurz
 Long version with M14x1,5: https://amzn.to/32G6v0V
-The sensor is connected only with one wire to the ESP. Worry was that the ground is n
+The sensor is connected only with one wire to the ESP. Worry was that the ground is not good enough... But first tests show that the received/calculated values are good enough.
 
 DC/DC Converter
 To convert the 12V DC from the car to 5V that the ESP32 needs.
@@ -48,11 +48,10 @@ Cables for the display and the switch.
 e.g. https://amzn.to/2TxkW30
 
 ## Wiring Diagram
-
-
+Will be provided shortly.
 
 ## Code
-
+Will be uploaded shortly.
 
 ## Future Improvements
 Change from Bluetooth Serial to BLE.
@@ -60,7 +59,6 @@ Change from Bluetooth Serial to BLE.
 Small Android app that shows current oil temp and records the history. Would be interesting to see the oiltemp/time line for cold start or e.g. mountain pass driving. :)
 
 Additional display of oiltemp in graphical fashion, some sort of gauge.
-
 
 ## Interesting and helpful links
 
@@ -80,8 +78,8 @@ To create the images in "arduino compativble format":
 http://javl.github.io/image2cpp/
 
 ## More "Work in Progress" photos
-
+Yes, it's not a nice looking piece of work. But it does what it should do... ;)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzE3MzUwMSwtNzk5NzgwMTg1XX0=
+eyJoaXN0b3J5IjpbNzc3OTM0NzM2LC03OTk3ODAxODVdfQ==
 -->
