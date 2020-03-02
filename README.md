@@ -2,6 +2,7 @@
 An ESP32 OilTemp Display for Cars
 
 
+
 Note: Amazon Links are affiliate links. Thanks for the support.
 
 ## Functionality
@@ -58,6 +59,9 @@ Change from Bluetooth Serial to BLE.
 
 Small Android app that shows current oil temp and records the history. Would be interesting to see the oiltemp/time line for cold start or e.g. mountain pass driving. :)
 
+Make the opening in the dashboard nicer. 
+It's not as bad as it seems on the photos.
+
 Additional display of oiltemp in graphical fashion, some sort of gauge.
 
 ## Interesting and helpful links
@@ -81,5 +85,5 @@ http://javl.github.io/image2cpp/
 Yes, it's not a nice looking piece of work. But it does what it should do... ;)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3OTM0NzM2LC03OTk3ODAxODVdfQ==
+eyJoaXN0b3J5IjpbLTE0MDA2NTcwNjYsLTc5OTc4MDE4NV19
 -->
