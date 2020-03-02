@@ -84,7 +84,7 @@ http://javl.github.io/image2cpp/
 ## More "Work in Progress" photos
 Yes, it's not a nice looking piece of work. But it does what it should do... ;)
 
-
+![enter image description here](pics/IMG_20200223_084447.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2OTA4OTMyLC0xNDAwNjU3MDY2XX0=
+eyJoaXN0b3J5IjpbNjEzMzUxMTMsLTE0MDA2NTcwNjZdfQ==
 -->
