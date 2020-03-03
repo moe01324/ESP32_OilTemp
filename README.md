@@ -31,7 +31,7 @@ e.g.: https://amzn.to/2VDNDyi
 Oil Temp Sensor
 There are differen sizes available from VDO. Choose the correct one for you car. Especially mind the threads and lenght of the sensor. My car could only be fitted with the "short" version.
 
-VDO TEMPERATURFÜHLER 150° OEL M14 x 1,5 kurz
+VDO TEMPERATURFÜHLER 150° OEL M14 x 1,5 kurz. The short version: old VDO Nr. 323-801-012-002D, new number = A2C1755440001.
 
 Long version with M14x1,5: https://amzn.to/32G6v0V
 
