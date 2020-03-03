@@ -56,7 +56,7 @@ e.g. https://amzn.to/2TxkW30
 <img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/oilsensor.png" height="300px" />.
 
 ## Code
-Will be uploaded shortly.
+Can be found in the ESP_oil_BT_WIFI_GH folder.
 
 ## Future Improvements
 Change from Bluetooth Serial to BLE.
