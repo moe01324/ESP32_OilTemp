@@ -25,7 +25,7 @@ const int oilPin = 32;
 
 const char* host = "Porsche Esp32";
 const char* ssid = "xxxx";
-const char* password = "xxxxx";
+const char* password = "yyyyyy";
 
 WebServer server(80);
 
@@ -282,17 +282,14 @@ void loop() {
 }
 
 void screenZero(int oiltemp) {
-  display.display();
   if(oiltemp < 80){
      screenTwo(oiltemp);
-   } else {
+   } else if(oiltemp > 120){
+     screenTwo(oiltemp);
+  }    
+   else {
     screenThree();
   }   
-  if(oiltemp > 110){
-     screenTwo(oiltemp);
-  } else {
-    screenThree();
-  }  
 }
 
 void screenOne() {
