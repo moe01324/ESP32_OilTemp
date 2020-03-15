@@ -23,9 +23,16 @@ Really not beautiful, but works. ;-)
 const int PushButton = 15;
 const int oilPin = 32;
 
+//for averaging the values
+const int numReadings = 10;
+int readings[numReadings];      
+int readIndex = 0;              // the index of the current reading
+int total = 0;                  // the running total
+int average = 0;                // the averag
+
 const char* host = "Porsche Esp32";
-const char* ssid = "xxxx";
-const char* password = "yyyyyy";
+const char* ssid = "xxx";
+const char* password = "zzzz";
 
 WebServer server(80);
 
@@ -173,6 +180,12 @@ int menuNumber = 0;
 
 void setup() {
   Serial.begin(115200); 
+
+  // initialize all the readings for averaging to 0:
+  for (int thisReading = 0; thisReading < numReadings; thisReading++) {
+    readings[thisReading] = 0;
+  }
+  
   pinMode(PushButton, INPUT);
   oilTemperatureSensor = new VdoTemperatureSender(oilPin, vdoTemp);
 
@@ -241,34 +254,46 @@ void setup() {
   
 void loop() {       
     int oilTemperature = oilTemperatureSensor->getTemperature();
-    Serial.print("Oil T: ");
-    Serial.println(oilTemperature);
-    ESP_BT.println("Oil T: ");
-    ESP_BT.println(oilTemperature);
-    delay(200);
-    
-  int Push_button_state = digitalRead(PushButton); 
-  
-  if (Push_button_state == LOW) {
-    delay(200);
-    menuNumber = menuNumber + 1;
 
-    if (menuNumber == 4) {
-      menuNumber = 0;
+    // handling average calc
+    total = total - readings[readIndex];
+    readings[readIndex] = oilTemperature;
+    total = total + readings[readIndex];
+    readIndex = readIndex + 1;
+    if (readIndex >= numReadings) {
+      readIndex = 0;
     }
+ 
+    average = total / numReadings;
 
-    Serial.println("low");
-    Serial.println(menuNumber);
-  }
+    Serial.print("Oil T: ");
+    Serial.println(average);
+    ESP_BT.println("Oil T: ");
+    ESP_BT.println(average);
+    delay(200);  
+    
+    int Push_button_state = digitalRead(PushButton); 
+    
+    if (Push_button_state == LOW) {
+      delay(200);
+      menuNumber = menuNumber + 1;
+  
+      if (menuNumber == 4) {
+        menuNumber = 0;
+      }  
+      Serial.println("low");
+      Serial.println(menuNumber);
+    }
+    
     switch (menuNumber) {
       case 0:
-      screenZero(oilTemperature);
+      screenZero(average);
       break;
       case 1:
       screenOne();
       break;
       case 2:
-      screenTwo(oilTemperature);
+      screenTwo(average);
       break;
       case 3:
       screenThree();
@@ -281,6 +306,7 @@ void loop() {
   server.handleClient();
 }
 
+// default screen. shows temp below 80 and above 120. empty screen between.
 void screenZero(int oiltemp) {
   if(oiltemp < 80){
      screenTwo(oiltemp);
@@ -292,12 +318,14 @@ void screenZero(int oiltemp) {
   }   
 }
 
+//shows cayman logo
 void screenOne() {
   display.clearDisplay();
   display.drawBitmap(0, 0,  porsche, 128, 32, WHITE);
   display.display();
 }
 
+//show current average temp always
 void screenTwo(int oiltemp) {
   display.clearDisplay();
   display.setTextSize(2);             
@@ -309,6 +337,7 @@ void screenTwo(int oiltemp) {
   display.display();
 }
 
+//empty screen
 void screenThree() {
   display.clearDisplay();
   display.display();
