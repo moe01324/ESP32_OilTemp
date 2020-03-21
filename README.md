@@ -56,7 +56,10 @@ e.g. https://amzn.to/2TxkW30
 <img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/oilsensor.png" height="300px" />.
 
 ## Code
-Can be found in the ESP_oil_BT_WIFI_GH folder.
+Can be found in the ESP_oil_BT_WIFI_GH folderWill be provided shortly.
+
+## Code
+Will be uploaded shortly.
 
 ## Future Improvements
 Change from Bluetooth Serial to BLE.
@@ -99,7 +102,8 @@ Yes, it's not a nice looking piece of work. But it does what it should do... ;)
 <img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200229_113049.jpg" height="300px" />
 <img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200223_084447.jpg" height="300px" />
 <img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200222_075008.jpg" height="300px" />
-
+![enter image description here](pics/IMG_20200223_084447.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2OTA4OTMyLC0xNDAwNjU3MDY2XX0=
+eyJoaXN0b3J5IjpbLTE5MTgwMzAwMzIsMzI2OTA4OTMyLC0xND
+AwNjU3MDY2XX0=
 -->
