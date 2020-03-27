@@ -10,7 +10,7 @@ Note: Amazon Links are affiliate links. Thanks for the support.
 
 Receiving Oil Temp from an additional VDO Temp Sensor on the ESP32
 ESP32 shows Oil Temp on the mini display in the dashboard
-Cycling through different display options via physical switch in the glovebox.
+Cycling through different display options via physical switch next to the display. The PASM switch is usually used for adapting the dampers. Not needed in my car any more. Just put a microswitch inside the existing housing. 
   Default: Show oil temp under 80°C and over 120°C, disable display between these values.
   Option1: Show always the current oil temp.
   Option2: Show Cayman logo.
@@ -45,7 +45,7 @@ Resistors
 2x 220Ohm. One for the switch, one for the sensor.
 
 Switch
-To cycle through different display modes. I put it into the glove box.
+To cycle through different display modes. I put it directly into the dashboard. "Inside" an existing but unused switch
 e.g. https://amzn.to/2TeMIT3
 
 Cabling
@@ -56,10 +56,7 @@ e.g. https://amzn.to/2TxkW30
 <img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/oilsensor.png" height="300px" />.
 
 ## Code
-Can be found in the ESP_oil_BT_WIFI_GH folderWill be provided shortly.
-
-## Code
-Will be uploaded shortly.
+Can be found in the ESP_oil_BT_WIFI_GH folder.
 
 ## Future Improvements
 Change from Bluetooth Serial to BLE.
@@ -102,8 +99,3 @@ Yes, it's not a nice looking piece of work. But it does what it should do... ;)
 <img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200229_113049.jpg" height="300px" />
 <img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200223_084447.jpg" height="300px" />
 <img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200222_075008.jpg" height="300px" />
-![enter image description here](pics/IMG_20200223_084447.jpg)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTgwMzAwMzIsMzI2OTA4OTMyLC0xND
-AwNjU3MDY2XX0=
--->
