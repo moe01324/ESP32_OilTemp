@@ -14,8 +14,8 @@ Note: Amazon Links are affiliate links. Thanks for the support.
 
 ## Functionality
 
-Receiving Oil Temp from an additional VDO Temp Sensor on the ESP32
-ESP32 shows Oil Temp on the mini display in the dashboard
+Receiving Oil Temp from an additional VDO Temp Sensor and showing it via an ESP32  mini display in the dashboard.
+
 
 Cycling through different display options via physical switch next to the display. The PASM switch is usually used for adapting the dampers. Not needed in my car any more. Just put a microswitch inside the existing housing. 
   - Default: Show oil temp under 80°C and over 120°C, disable display between these values.
