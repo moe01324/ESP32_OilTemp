@@ -4,8 +4,10 @@ An ESP32 OilTemp Display for Cars
 <img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200301_142209.jpg" height="500px" />
 
 Youtube Video:
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Lb_gwHa3XYI" target="_blank"><img src="http://img.youtube.com/vi/Lb_gwHa3XYI/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="500" border="10" /></a>
+alt="ESP32 Oiltemp Video" width="500" border="20" /></a>
+
 https://youtu.be/Lb_gwHa3XYI
 
 Note: Amazon Links are affiliate links. Thanks for the support.
