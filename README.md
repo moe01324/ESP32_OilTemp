@@ -1,4 +1,4 @@
-# ESP32_OilTemp
+# ESP32 OilTemp Display
 An ESP32 OilTemp Display for Cars
 
 <img src="https://github.com/moe01324/ESP32_OilTemp/blob/master/pics/IMG_20200301_142209.jpg" height="500px" />
